@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+table {    
+   margin: 13% auto;
+   font-size: 30px;
+   font-weight: 700;
+   width: 900px;
+   
+   border-collapse: collapse;
+}
+
+thead tr {
+   background: rgb(26, 134, 102);
+   color: #fff;
+   text-align: left;
+}
+
+th, td {
+   padding: 25px;
+}
+
+tbody tr {
+   border-bottom: 2px solid #cccccca1;
+}
+
+tbody tr:nth-child(even) {
+   color: rgb(26, 134, 102);
+   background: #f9f9f9;
+}
+
+tbody tr:last-child {
+   border-bottom: 5px solid rgb(26, 134, 102);
+}
+
+tbody tr:hover {
+
+   color: rgb(42, 98, 172);
+   cursor: pointer;
+}
+
+
